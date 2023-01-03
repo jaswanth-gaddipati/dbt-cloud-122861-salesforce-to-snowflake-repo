@@ -1,0 +1,5 @@
+packages:
+  - package: fivetran/salesforce
+    version: [">=0.7.0", "<0.8.0"]
+  - package: fivetran/salesforce_formula_utils
+    version: [">=0.7.0", "<0.8.0"]

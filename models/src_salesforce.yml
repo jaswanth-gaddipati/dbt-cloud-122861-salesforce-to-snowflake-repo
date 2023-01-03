@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: salesforce #It would be best to keep this named salesforce
+    database: FIVETRAN_DATABASE
+    schema: 'salesforce' #Modify this to be where your Salesforce data resides
+    tables:
+      - name: fivetran_formula_model
+        description: Used for the recommended Option 1 version of the formula solution.
+      - name: fivetran_formula
+        description: Used for options 2 and 3 of the original individual formula solution.
